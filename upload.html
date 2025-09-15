@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload - Milowatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Upload Video</h1>
+  </header>
+
+  <main>
+    <form id="uploadForm">
+      <label for="video">Select video:</label>
+      <input type="file" id="video" name="video" accept="video/*">
+      <button type="submit">Upload</button>
+    </form>
+    <a href="index.html" class="button">Back to Home</a>
+  </main>
+
+  <script>
+    document.getElementById('uploadForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      alert('Video uploaded! (This is a demo)');
+    });
+  </script>
+</body>
+</html>

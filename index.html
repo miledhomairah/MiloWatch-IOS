@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milowatch</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Milowatch">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+  <header>
+    <h1>Milowatch</h1>
+  </header>
+
+  <main>
+    <p>Welcome to Milowatch!</p>
+    <a href="upload.html" class="button">Upload Video</a>
+  </main>
+
+  <!-- Install Modal Banner -->
+  <div id="installModal" class="install-modal">
+    <div class="install-content">
+      <h2>Install Milowatch</h2>
+      <p>For the best experience, add Milowatch to your Home Screen.</p>
+      <ol>
+        <li>Tap <strong>Share</strong> <span class="share-icon">⤴️</span></li>
+        <li>Tap <strong>Add to Home Screen</strong></li>
+      </ol>
+      <button id="closeInstall">Got it!</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
