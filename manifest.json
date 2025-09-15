@@ -1,7 +1,7 @@
 {
-  "name": "Milowatch - Watch, Share, Upload",
-  "short_name": "Milowatch",
-  "start_url": "/index.html",
+  "name": "MDPC - Get, Ask, And More",
+  "short_name": "MDPC",
+  "start_url": "/MiloWatch-IOS/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#4CAF50",
